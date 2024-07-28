@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <title>James Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+<section class="header">
+
+
+    <nav class="dekstop-nav">
+        <div class="logo">ames Carl!</div>
+        <div class="logo1">
+          <img src="logo.png" alt="">
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+              
+            </ul>
+        </div>
+    </nav>
+    <nav class="hamburger-nav">
+        <div class="logo">James Carl</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()"><span></span>
+                <span></span>
+                    <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home"  onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#footer" onclick="toggleMenu()">footer</a></li>
+            </div>
+        </div>
+    </nav>
+   
+    <section id="profile">
+      <div class="col-sm-6">
+          <img src="profile.png" alt="James Gwapo profile picture" class="pic1"/>
+          
+      </div>
+  
+      <div class="col-sm-6">
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">James Carl</h1>
+          <p class="section__text__p2">Bachelor Of Science Information Technology</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2" style="color: whitesmoke;"
+              onclick="window.open('./assets/shesh.pdf')"
+            >
+              Resume
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='First.html#footer'">
+              Contact Info
+            </button>
+          </div>
+          <div class="icons" id="demo">
+              <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.google.com/"><ion-icon name="logo-google"></ion-icon></a>
+            <a href="https://www.twitter.com/"><ion-icon name="logo-twitter"></ion-icon></a>
+          </div>
+      </div>
+      </div>
+      
+    </section>
+</section>
+
+    <section id="about">
+        <br><br><br>
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="section-container">
+              <div class="section__pic-container">
+                <img
+                  src="pic11.jpg"
+                  alt="Profile picture"
+                  class="about-pic"
+                />
+                <p class="shesh">I'm "<span style="font-weight: bold; color: red;"> James Carl Abiera</span>" a passionate 1st-year college student pursuing a Bachelor of Science in Information Technology at Davao del Norte State College. My journey in the realm of technology has been both exciting and enriching. I believe in the power of continuous learning and strive to keep my skill set relevant in the dynamic field of information technology.</p>
+                <p class="shesh2" style="font-weight: bold; color: red;"> Follow Me On</p>
+                <div class="icons" id="demo">
+                  <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+                  <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.google.com/"><ion-icon name="logo-google"></ion-icon></a>
+                <a href="https://www.twitter.com/"><ion-icon name="logo-twitter"></ion-icon></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="educ">
+                <center>
+                  <img src="educ.png" alt="">
+                  <h1>Education</h1>
+                </center>
+              </div>
+              <div class="content-card">
+                   <img src="logo elem.png" alt="">
+                    <h5>Nuevo Iloco Elementary School</h5>
+                    <p>July 2015 - July 2016</p>
+                    <img src="logo high.jpg" alt="">
+                    <h5>Nuevo Iloco National High School</h5>
+                    <p>April 2019 - July 2020</p>
+                    <img src="logo sr.jpg" alt="">
+                    <h5 class="sr">Lorenzo S. Sarmiento Sr National High School</h5>
+                    <p>August 2022 - July 2023</p>
+                    <br>
+                    <br>
+              </div>
+             
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="second">
+            <div class="card">
+              <div class="educ">
+                <center>
+                  <img src="skil.png" alt="">
+                  <h1>Skills</h1>
+                </center>
+              </div>
+             
+                <div class="content-card1">
+                  <img src="Adobe Photoshop.png" alt="">
+                  <img src="Adobe After Effects.png" alt="">
+                  <img src="Adobe Premiere Pro.png" alt="">
+                  <img src="Html 5.png" alt="">
+                  <img src="CSS3.png" alt="">       
+            </div>
+            <div class="content-card1">
+              <img src="Visual Studio Code 2019.png" alt="">
+              <img src="xampp.png" alt="">
+              <img src="eclipse.png" alt="">
+              <img src="Apache Netbeans.png" alt="">
+              <img src="Javascript.png" alt="">
+            </div> 
+            </div>
+          </div>
+          
+        </div>
+        
+         
+      </section>
+      
+
+      <section id="project">
+        <p class="section__text__p1">Get To Know </p>
+        <h1 class="title">MY PROJECT</h1>
+        <div class="project-content">
+
+          <div class="project1">
+                <div class="row">
+                   <div class="col-sm-6">
+                      <img src="project1.png" alt="project">
+                </div>
+                  <div class="col-sm-6">
+                    <h1>Photography</h1>
+                    <h6>Photography is the art and practice of capturing images using light-sensitive materials or electronic sensors. It involves a combination of technical skill, artistic vision, and creativity to produce compelling visual representations of subjects, scenes, and moments. Photographers utilize cameras, lenses, and other equipment to control factors like exposure, focus, and composition, while also considering elements such as lighting, color, and perspective. Whether documenting everyday life, exploring abstract concepts, or conveying powerful emotions, photography serves as a powerful medium for communication, storytelling, and self-expression.</h6>
+                  </div>
+              </div>
+            </div>
+            
+            <div class="project2">
+              <div class="row">
+                <div class="col-sm-6">
+                  <h1>Film Making</h1>
+                    <h6>Film making is the intricate process of conceptualizing, planning, producing, and editing visual narratives using a combination of moving images, sound, and storytelling techniques. It involves a collaborative effort among various creative professionals, including directors, screenwriters, cinematographers, actors, editors, and sound designers, each contributing their expertise to bring a script to life on screen. Film making encompasses a wide range of genres, styles, and formats, from narrative feature films and documentaries to short films, music videos, and experimental cinema.</h6>
+                </div>
+                <div class="col-sm-6">
+                  <img src="1.png" alt="project">
+                 
+                </div>
+              </div>
+            </div>
+
+            <div class="project1">
+              <div class="row">
+                 <div class="col-sm-6">
+                    <img src="3.jpg" alt="project">
+              </div>
+                <div class="col-sm-6">
+                  <h1>Crud With JFrame</h1>
+                  <h6>"CRUD with GUI" refers to the integration of Create, Read, Update, and Delete (CRUD) operations within a graphical user interface (GUI) in software development. This design pattern allows users to interact with data through intuitive visual elements such as buttons, forms, and tables. By combining CRUD functionality with a GUI, users can easily add, view, modify, and delete data without needing to write code or use complex commands. This approach simplifies data management tasks, making them more accessible and user-friendly for individuals interacting with the software.s</h6>
+              </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="project2">
+            <div class="row">
+              <div class="col-sm-6">
+                <h1>Website making</h1>
+                <h6>Website making involves the process of creating and designing web pages, typically using a combination of programming languages such as HTML, CSS, and JavaScript, as well as various web development tools and frameworks. This process encompasses tasks like planning the site structure, designing the layout and user interface, coding the functionality, and optimizing the site for performance and accessibility. Website makers may utilize content management systems (CMS) like WordPress or website builders that offer drag-and-drop interfaces for easier development. The goal of website making is to produce an engaging and functional online presence that meets the needs of its intended audience, whether for personal, business, or informational purposes.</h6>
+              </div>
+              <div class="col-sm-6">
+                <img src="5.png" alt="project">
+              </div>
+            </div>
+          </div>  
+      </section>
+
+      <section class="footer" id="footer">
+        <p class="section__text__p1" style="margin-top: 1%; font-weight: bold;">Contact Info </p>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h1>James Carl Abiera</h1>
+                <p class="lol">Bachelor Of Science Information Technology </p>
+            </div>
+    
+        <div class="col-sm-3">
+            <p>Email: Abierajames27@gmail.com</p><br>
+            <p>Address: Isabela New Visayas</p>
+          
+        </div>
+        
+        <div class="col-sm-3">
+            <p>Phone Number: 09618344757</p><br>
+        
+        </div>
+     
+    </div>
+    <br>
+    <hr>
+       
+        <div class="icons" id="demo">
+            <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.twitter.com/"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href="https://www.google.com/"><ion-icon name="logo-google"></ion-icon></a>
+            <a href="https://www.skype.com/"><ion-icon name="logo-skype"></ion-icon></a>
+        </div>
+       
+    </section>  
+      
+
+
+    
+
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    
+</body>
+</html>
